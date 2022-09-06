@@ -128,9 +128,23 @@
 // чисел користувачем.
 
 
+// let userNumbers = prompt(`Введіть 10 чисел через кому`, '');
+// let numbersSplit = userNumbers.split(',');
 
 
+// if (numbersSplit > 0) {
 
+// } else if (numbersSplit < 0) {
+
+// } else if (numbersSplit === 0) {
+
+// } else if (numbersSplit % 2 === 0) {
+
+// } else if (numbersSplit % 2 != 0) {
+
+// } 
+
+// console.log()
 
 
 
@@ -167,6 +181,12 @@
 
 
 
+for (let i = 2; i < 10; i++) {
+    console.log(i);
+    for (y = 1; y < 11; y++) {
+        console.log(`${i} * ${y} = ${i * y}`)
+    }
+}
 
 
 
