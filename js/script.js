@@ -128,33 +128,25 @@
 // чисел користувачем.
 
 
-// let userNumbers = prompt(`Введіть 10 чисел через кому`, '');
-// let numbersSplit = userNumbers.split(',');
-
-
-// if (numbersSplit > 0) {
-
-// } else if (numbersSplit < 0) {
-
-// } else if (numbersSplit === 0) {
-
-// } else if (numbersSplit % 2 === 0) {
-
-// } else if (numbersSplit % 2 != 0) {
-
-// } 
-
-// console.log()
-
-
 
 
 // Зацикли відображення днів тижня таким чином:
 // «День тижня. Хочеш побачити наступний день? » і так до тих пір,
 // поки користувач натискає OK.
 
-
-
+// const DAY = 'MondayTuesdayWednesdayThursdayFridaySaturdaySunday';
+// let user = confirm(`Хочеш побачити дні тижня?`, '')
+// if (user == true) {
+//     confirm(`${DAY.slice(0, 6)} Хочеш побачити наступний день?`) 
+//     confirm(`${DAY.slice(6, 13)} Хочеш побачити наступний день?`)
+//     confirm(`${DAY.slice(13, 22)} Хочеш побачити наступний день?`)
+//     confirm(`${DAY.slice(22, 30)} Хочеш побачити наступний день?`)
+//     confirm(`${DAY.slice(30, 36)} Хочеш побачити наступний день?`)
+//     confirm(`${DAY.slice(36, 44)} Хочеш побачити наступний день?`)
+//     confirm(`${DAY.slice(44)} Хочеш побачити наступний день?`)
+// } else {
+//     alert(`Cancel!`)
+// }
 
 
 
@@ -181,15 +173,22 @@
 
 
 
-for (let i = 2; i < 10; i++) {
-    console.log(i);
-    for (y = 1; y < 11; y++) {
-        console.log(`${i} * ${y} = ${i * y}`)
-    }
-}
+// for (let i = 2; i < 10; i++) {
+//     console.log(i);
+//     for (y = 1; y < 11; y++) {
+//         console.log(`${i} * ${y} = ${i * y}`)
+//     }
+// }
 
 
 
 // Запитай дату (день, місяць, рік) і виведи наступну
 // за нею дату. Враховуй можливість переходу на
 // наступний місяць, рік, а також високосний рік.
+
+
+// let date = +prompt('Вкажіть день', '');
+// let mouth = +prompt('Вкажіть місяць', '');
+// let year = +prompt('Вкажіть рік', '');
+
+
