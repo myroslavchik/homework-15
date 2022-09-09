@@ -191,4 +191,24 @@
 // let mouth = +prompt('Вкажіть місяць', '');
 // let year = +prompt('Вкажіть рік', '');
 
+// if (date && mouth && year) {
+//     date += 1;
+//     mouth += 1;
+//     year += 1;
+// } else if (date == 0 || mouth == 0 || year == 0) {
+//     alert(`Неправильне значення`)
+// } else if (date == undefined || mouth == undefined || year == undefined) {
+//     alert(`Неправильне значення`)
+// } else if (date > 31 || mouth > 12) {
+//     alert(`Неправильне значення`)
+// } if (mouth > 12 || date > 2) {
+//     alert(`Неправильне значення місяця або дати`)
+// }
+
+// console.log(`Наступна дата ${date}/${mouth}/${year}`)
+
+
+
+
+
 
