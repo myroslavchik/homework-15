@@ -127,6 +127,49 @@
 // що достатньо однієї змінної (не 10) для введення
 // чисел користувачем.
 
+// let answer = 10;
+// for (answer = 0; answer < 10; answer++) {
+
+// let number = +prompt(`Please enter a number`);
+// let positiv;
+// let negative;
+// let zero;
+// let even;
+// let odd;
+
+// if (number % 2 == 0) {
+//     for (i = number; i <= number; i++) {
+//         even = i;
+//         console.log(`even = ${even}`);
+//     }
+//     } 
+// if (number % 2 != 0) {
+//     for (i = number; i <= number; i++) {
+//         odd = i;
+//         console.log(`odd = ${odd}`);
+//     }
+//     }
+
+// if (number > 0) {
+//     for (i = number; i <= number; i++) {
+//         positiv = i;
+//         console.log(`positive = ${positiv}`);
+//     }
+//  } else if (number < 0) {
+//     for (i = number; i <= number; i++) {
+//         negative = i;
+//         console.log(`negative = ${negative}`);
+//     }
+//  } else if (number == 0) {
+//     for (i = number; i <= number; i++) {
+//         zero = i;
+//         console.log(`zero = ${zero}`);
+//     }
+// } 
+// }
+
+
+
 
 
 
