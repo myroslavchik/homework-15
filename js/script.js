@@ -128,6 +128,11 @@
 // чисел користувачем.
 
 // let answer = 10;
+// let counterEven = 0;
+// let counterOdd = 0;
+// let counterPositive = 0;
+// let counterNegative = 0;
+// let counterZero = 0;
 // for (answer = 0; answer < 10; answer++) {
 
 // let number = +prompt(`Please enter a number`);
@@ -136,37 +141,37 @@
 // let zero;
 // let even;
 // let odd;
-
 // if (number % 2 == 0) {
 //     for (i = number; i <= number; i++) {
 //         even = i;
-//         console.log(`even = ${even}`);
-//     }
+//     } counterEven += 1;
 //     } 
 // if (number % 2 != 0) {
 //     for (i = number; i <= number; i++) {
 //         odd = i;
-//         console.log(`odd = ${odd}`);
-//     }
+//     } counterOdd += 1;
 //     }
 
 // if (number > 0) {
 //     for (i = number; i <= number; i++) {
 //         positiv = i;
-//         console.log(`positive = ${positiv}`);
-//     }
+//     } counterPositive += 1;
 //  } else if (number < 0) {
 //     for (i = number; i <= number; i++) {
 //         negative = i;
-//         console.log(`negative = ${negative}`);
-//     }
+//     } counterNegative += 1;
 //  } else if (number == 0) {
 //     for (i = number; i <= number; i++) {
 //         zero = i;
-//         console.log(`zero = ${zero}`);
-//     }
+//     } counterZero += 1;
 // } 
 // }
+
+// console.log(`Sum of even = ${counterEven}`);
+// console.log(`Sum of odd = ${counterOdd}`);
+// console.log(`Sum of positive = ${counterPositive}`);
+// console.log(`Sum of negative = ${counterNegative}`);
+// console.log(`Sum of zero = ${counterZero}`);
 
 
 
