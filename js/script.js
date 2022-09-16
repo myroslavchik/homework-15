@@ -182,20 +182,16 @@
 // «День тижня. Хочеш побачити наступний день? » і так до тих пір,
 // поки користувач натискає OK.
 
-// const DAY = 'MondayTuesdayWednesdayThursdayFridaySaturdaySunday';
-// let user = confirm(`Хочеш побачити дні тижня?`, '')
-// if (user == true) {
-//     confirm(`${DAY.slice(0, 6)} Хочеш побачити наступний день?`) 
-//     confirm(`${DAY.slice(6, 13)} Хочеш побачити наступний день?`)
-//     confirm(`${DAY.slice(13, 22)} Хочеш побачити наступний день?`)
-//     confirm(`${DAY.slice(22, 30)} Хочеш побачити наступний день?`)
-//     confirm(`${DAY.slice(30, 36)} Хочеш побачити наступний день?`)
-//     confirm(`${DAY.slice(36, 44)} Хочеш побачити наступний день?`)
-//     confirm(`${DAY.slice(44)} Хочеш побачити наступний день?`)
-// } else {
-//     alert(`Cancel!`)
+// let user;
+// let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+// do {
+// for (i = 0; i < days.length; i++) {
+//     if (user == false) {
+//         break;
+//     }
+//     user = confirm(`${days[i]} Хочеш побачити наступний день?`) 
 // }
-
+// } while (user == true);
 
 
 
