@@ -5,19 +5,19 @@
 //  передбач можливість введення невірних даних.
 
 
-// let olds = +prompt('Вкажіть ваш вік', '');
+let olds = +prompt('Вкажіть ваш вік', '');
 
-// if (olds <= 11 && olds > 0) {
-//     alert('Ви дитина!');
-// } else if (olds >= 12 && olds <= 17) {
-//     alert('Ви підліток!');
-// } else if (olds >= 18 && olds <= 59) {
-//     alert('Ви дорослий!');
-// } else if (olds > 60 && olds < 140) {
-//     alert('Ви пенсіонер')
-// } else {
-//     alert('Неправильні дані');
-// }
+if (olds <= 11 && olds > 0) {
+    alert('Ви дитина!');
+} else if (olds >= 12 && olds <= 17) {
+    alert('Ви підліток!');
+} else if (olds >= 18 && olds <= 59) {
+    alert('Ви дорослий!');
+} else if (olds > 60 && olds < 140) {
+    alert('Ви пенсіонер')
+} else {
+    alert('Неправильні дані');
+}
 
 
 // Запитай у користувача число від 0 до 9 і виведи йому
@@ -25,66 +25,68 @@
 // (1 !, 2 @, 3 # і т. д).
 
 
-// let number = +prompt('Вкажіть число від 0 до 9');
+let number = +prompt('Вкажіть число від 0 до 9');
 
-// if (number === 1) {
-//     alert('!')
-// } else if (number === 2) {
-//     alert('@')
-// } else if (number === 3) {
-//     alert('#')
-// } else if (number === 4) {
-//     alert('$')
-// } else if (number === 5) {
-//     alert('%')
-// } else if (number === 6) {
-//     alert('^')
-// } else if (number === 7) {
-//     alert('&')
-// } else if (number === 8) {
-//     alert('*')
-// } else if (number === 9) {
-//     alert('(')
-// } else {
-//     alert('Помилка')
-// }
+if (number === 1) {
+    alert('!')
+} else if (number === 2) {
+    alert('@')
+} else if (number === 3) {
+    alert('#')
+} else if (number === 4) {
+    alert('$')
+} else if (number === 5) {
+    alert('%')
+} else if (number === 6) {
+    alert('^')
+} else if (number === 7) {
+    alert('&')
+} else if (number === 8) {
+    alert('*')
+} else if (number === 9) {
+    alert('(')
+} else {
+    alert('Помилка')
+}
 
 
 // Підрахуй суму всіх чисел в заданому користувачем діапазоні.
 
-// let min = +prompt('Вкажіть перше число діапазону', '');
-// let max = +prompt('Вкажіть друге число діапазону', '');
-// let sum = 0;
-// for (let i = min; i <= max; i++) {
-//     sum += i;
-// }
-// alert('Сума чисел діапазону: ' + sum);
+let min = +prompt('Вкажіть перше число діапазону', '');
+let max = +prompt('Вкажіть друге число діапазону', '');
+let sum = 0;
+for (let i = min; i <= max; i++) {
+    sum += i;
+}
+alert('Сума чисел діапазону: ' + sum);
 
 
 // Запитай у користувача 2 числа і знайди найбільший спільний дільник.
 
-// let number1, number2, divider;
-// number1 = parseInt(prompt('Введіть перше число', ''));
-// number2 = parseInt(prompt('Введіть друге число', ''));
-// if (number1 > 0 && number2 > 0) {
-// for (let i = 1; i <= number1; i++) {
-// if ((number1 % i == 0) && (number2 % i == 0)) {
-// divider = i;
-// }
-// }
-// alert(`Найбільший спільний дільник чисел (${number1} і ${number2}) : ${divider}`);
+let number1, number2, divider;
+number1 = parseInt(prompt('Введіть перше число', ''));
+number2 = parseInt(prompt('Введіть друге число', ''));
+if (number1 > 0 && number2 > 0) {
+for (let i = 1; i <= number1; i++) {
+if ((number1 % i == 0) && (number2 % i == 0)) {
+divider = i;
+}
+}
+alert(`Найбільший спільний дільник чисел (${number1} і ${number2}) : ${divider}`);
 
-// }
+}
 
 
 // Запитай у користувача число і виведи всі дільники цього числа.
-// let = number = +prompt('Введіть число', '');
-// console.log(`Дільники числа ${number} такі:`);
-// for (let i = 1; i <= number; i++) {
-//     if (number % i == 0) {
-//         console.log(i);
-//     }
-// }
+
+
+let = number = +prompt('Введіть число', '');
+console.log(`Дільники числа ${number} такі:`);
+for (let i = 1; i <= number; i++) {
+    if (number % i == 0) {
+        console.log(i);
+    }
+}
 
 
 
@@ -92,32 +94,32 @@
 // Запитай у користувача п’ятирозрядне число і визначи,
 //  чи є воно паліндромом.
 
-// let = value = prompt('Введіть п’ятирозрядне число', '');
+let = value = prompt('Введіть п’ятирозрядне число', '');
 
-// if (value[0] === value[4] && value[1] === value[3]) {
-//     alert('Паліндром!');
-// } else if (value.length > 5) {
-//     alert('Неправильне число!')
-// } else {
-//     alert('');
-// }
+if (value[0] === value[4] && value[1] === value[3]) {
+    alert('Паліндром!');
+} else if (value.length > 5) {
+    alert('Неправильне число!')
+} else {
+    alert('');
+}
 
 // Запитай у користувача суму покупки і виведи суму до оплати зі знижкою:
 // від 200 до 300 - знижка буде 3%; 
 // від 300 до 500 - 5%;
 // від 500 і вище - 7%.
 
-// let sum = +prompt('Введіть суму покупки', '');
-// let discount;
-// let sumDiscount;
+let sumBuy = +prompt('Введіть суму покупки', '');
+let discount;
+let sumDiscount;
 
-// if (sum >= 200 && sum <= 299) {
-//     alert(`Сума зі знижкою ${sumDiscount = sum - (sum * 0.03)}`);
-// } else if (sum >= 300 && sum <= 499) {
-//     alert(`Сума зі знижкою ${sumDiscount = sum - (sum * 0.05)}`);
-// } else if (sum >= 500) {
-//     alert(`Сума зі знижкою ${sumDiscount = sum - (sum * 0.07)}`);
-// }
+if (sumBuy >= 200 && sumBuy <= 299) {
+    alert(`Сума зі знижкою ${sumDiscount = sumBuy - (sumBuy * 0.03)}`);
+} else if (sumBuy >= 300 && sumBuy <= 499) {
+    alert(`Сума зі знижкою ${sumDiscount = sumBuy - (sumBuy * 0.05)}`);
+} else if (sumBuy >= 500) {
+    alert(`Сума зі знижкою ${sumDiscount = sumBuy - (sumBuy * 0.07)}`);
+}
 
 
 // Запитай у користувача 10 чисел і порахуй,
@@ -127,51 +129,51 @@
 // що достатньо однієї змінної (не 10) для введення
 // чисел користувачем.
 
-// let answer = 10;
-// let counterEven = 0;
-// let counterOdd = 0;
-// let counterPositive = 0;
-// let counterNegative = 0;
-// let counterZero = 0;
-// for (answer = 0; answer < 10; answer++) {
+let answers = 10;
+let counterEven = 0;
+let counterOdd = 0;
+let counterPositive = 0;
+let counterNegative = 0;
+let counterZero = 0;
+for (answers = 0; answers < 10; answers++) {
 
-// let number = +prompt(`Please enter a number`);
-// let positiv;
-// let negative;
-// let zero;
-// let even;
-// let odd;
-// if (number % 2 == 0) {
-//     for (i = number; i <= number; i++) {
-//         even = i;
-//     } counterEven += 1;
-//     } 
-// if (number % 2 != 0) {
-//     for (i = number; i <= number; i++) {
-//         odd = i;
-//     } counterOdd += 1;
-//     }
+let number = +prompt(`Please enter a number`);
+let positiv;
+let negative;
+let zero;
+let even;
+let odd;
+if (number % 2 == 0) {
+    for (i = number; i <= number; i++) {
+        even = i;
+    } counterEven += 1;
+    } 
+if (number % 2 != 0) {
+    for (i = number; i <= number; i++) {
+        odd = i;
+    } counterOdd += 1;
+    }
 
-// if (number > 0) {
-//     for (i = number; i <= number; i++) {
-//         positiv = i;
-//     } counterPositive += 1;
-//  } else if (number < 0) {
-//     for (i = number; i <= number; i++) {
-//         negative = i;
-//     } counterNegative += 1;
-//  } else if (number == 0) {
-//     for (i = number; i <= number; i++) {
-//         zero = i;
-//     } counterZero += 1;
-// } 
-// }
+if (number > 0) {
+    for (i = number; i <= number; i++) {
+        positiv = i;
+    } counterPositive += 1;
+ } else if (number < 0) {
+    for (i = number; i <= number; i++) {
+        negative = i;
+    } counterNegative += 1;
+ } else if (number == 0) {
+    for (i = number; i <= number; i++) {
+        zero = i;
+    } counterZero += 1;
+} 
+}
 
-// console.log(`Sum of even = ${counterEven}`);
-// console.log(`Sum of odd = ${counterOdd}`);
-// console.log(`Sum of positive = ${counterPositive}`);
-// console.log(`Sum of negative = ${counterNegative}`);
-// console.log(`Sum of zero = ${counterZero}`);
+console.log(`Sum of even = ${counterEven}`);
+console.log(`Sum of odd = ${counterOdd}`);
+console.log(`Sum of positive = ${counterPositive}`);
+console.log(`Sum of negative = ${counterNegative}`);
+console.log(`Sum of zero = ${counterZero}`);
 
 
 
@@ -182,33 +184,16 @@
 // «День тижня. Хочеш побачити наступний день? » і так до тих пір,
 // поки користувач натискає OK.
 
-// let user;
-// let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
-// do {
-// for (i = 0; i < days.length; i++) {
-//     if (user == false) {
-//         break;
-//     }
-//     user = confirm(`${days[i]} Хочеш побачити наступний день?`) 
-// }
-// } while (user == true);
-
-
-
-// Гра «Вгадай число». Запропонуй користувачеві 
-// число від 0 до 100 і відгадай його наступним
-// способом: кожну ітерацію циклу діли діапазон
-// чисел навпіл, записуй результат в N і питай у
-// користувача «Ваше число> N, <N або == N?».
-// Залежно від того що вказав користувач, зменшуй
-// діапазон. Початковий діапазон від 0 до 100,
-// поділи навпіл і отримай 50. Якщо користувач
-// вказав, що його число> 50, то зміни діапазон
-// на від 50 до 100. І так до тих пір, поки користувач
-// не вибере == N (буде корисним почитати про алгоритм:
-// "бінарний пошук").
-
-
+let user;
+let days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+do {
+for (i = 0; i < days.length; i++) {
+    if (user == false) {
+        break;
+    }
+    user = confirm(`${days[i]} Хочеш побачити наступний день?`) 
+}
+} while (user == true);
 
 
 
@@ -217,12 +202,12 @@
 
 
 
-// for (let i = 2; i < 10; i++) {
-//     console.log(i);
-//     for (y = 1; y < 11; y++) {
-//         console.log(`${i} * ${y} = ${i * y}`)
-//     }
-// }
+for (let i = 2; i < 10; i++) {
+    console.log(i);
+    for (y = 1; y < 11; y++) {
+        console.log(`${i} * ${y} = ${i * y}`)
+    }
+}
 
 
 
@@ -231,25 +216,25 @@
 // наступний місяць, рік, а також високосний рік.
 
 
-// let date = +prompt('Вкажіть день', '');
-// let mouth = +prompt('Вкажіть місяць', '');
-// let year = +prompt('Вкажіть рік', '');
+let date = +prompt('Вкажіть день', '');
+let mouth = +prompt('Вкажіть місяць', '');
+let year = +prompt('Вкажіть рік', '');
 
-// if (date && mouth && year) {
-//     date += 1;
-//     mouth += 1;
-//     year += 1;
-// } else if (date == 0 || mouth == 0 || year == 0) {
-//     alert(`Неправильне значення`)
-// } else if (date == undefined || mouth == undefined || year == undefined) {
-//     alert(`Неправильне значення`)
-// } else if (date > 31 || mouth > 12) {
-//     alert(`Неправильне значення`)
-// } if (mouth > 12 || date > 2) {
-//     alert(`Неправильне значення місяця або дати`)
-// }
+if (date && mouth && year) {
+    date += 1;
+    mouth += 1;
+    year += 1;
+} else if (date == 0 || mouth == 0 || year == 0) {
+    alert(`Неправильне значення`)
+} else if (date == undefined || mouth == undefined || year == undefined) {
+    alert(`Неправильне значення`)
+} else if (date > 31 || mouth > 12) {
+    alert(`Неправильне значення`)
+} if (mouth > 12 || date > 2) {
+    alert(`Неправильне значення місяця або дати`)
+}
 
-// console.log(`Наступна дата ${date}/${mouth}/${year}`)
+console.log(`Наступна дата ${date}/${mouth}/${year}`)
 
 
 
