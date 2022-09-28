@@ -220,9 +220,14 @@ let date = +prompt('Вкажіть день', '');
 let mouth = +prompt('Вкажіть місяць', '');
 let year = +prompt('Вкажіть рік', '');
 
-if (date && mouth && year) {
-    date += 1;
-    mouth += 1;
+date += 1;
+mouth += 1;
+
+if (date == 32) {
+    date = 1;
+}
+if (mouth == 13) {
+    mouth = 1;
     year += 1;
 } else if (date == 0 || mouth == 0 || year == 0) {
     alert(`Неправильне значення`)
@@ -230,11 +235,11 @@ if (date && mouth && year) {
     alert(`Неправильне значення`)
 } else if (date > 31 || mouth > 12) {
     alert(`Неправильне значення`)
-} if (mouth > 12 || date > 2) {
-    alert(`Неправильне значення місяця або дати`)
-}
+} if (mouth > 12) {
+    alert(`Неправильне значення місяця`)
+} 
 
-console.log(`Наступна дата ${date}/${mouth}/${year}`)
+console.log(`Наступна дата - День: ${date}, Місяць: ${mouth}, Рік: ${year}`)
 
 
 
